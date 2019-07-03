@@ -1,6 +1,6 @@
 +++
 title = "FFXIV Game Update"
-description = "FFXIV is often patched and certain operations is required"
+description = "FFXIV is often patched and certain operations are required"
 weight = 25
 draft = false
 toc = false
