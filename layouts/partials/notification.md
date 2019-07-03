@@ -1,0 +1,1 @@
+      <a class="button inverted small " href="https://github.com/fosspill/FFXIV_Modding_Tool/releases" >A new release is out </a> and with it comes <mark>Wizard support</mark>, a unique <mark>modpack info</mark> command and some cleaner code! -July 2nd
