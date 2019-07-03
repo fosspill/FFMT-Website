@@ -1,4 +1,4 @@
-baseURL = "ffmt.onrender.com/"
+baseURL = "/"
 languageCode = "en-us"
 title = "FFMT - FFXIV Modding Tool"
 theme = "kube"
