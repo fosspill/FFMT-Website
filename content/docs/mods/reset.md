@@ -20,16 +20,10 @@ These are stored in the directory you've chosen in the configuration file (see f
 
 
 
-## Universal release (Including Windows)
+## Resetting
 
-1. Download and extract the universal release archive
-
-2. Confirm that the executable runs through commandline: 
-
-#### Mac/Linux:
-
-Run `mono FFMT.exe` through commandline.
-
-#### Windows:
-
-Run `FFMT.exe` through commandline.
+Resetting ensures that the index files are back to stock:
+ 
+     ```
+     > ./FFMT-LINUX reset
+     ```
