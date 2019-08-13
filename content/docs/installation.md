@@ -26,7 +26,7 @@ Available actions:
 
 ## Universal release (Mac / Windows / Linux)
 
-1. [Download and install Mono](https://www.mono-project.com/docs/getting-started/install/)
+1. Mac/Linu only: [Download and install Mono](https://www.mono-project.com/docs/getting-started/install/)
 
 2. Download and extract the universal release archive
 
