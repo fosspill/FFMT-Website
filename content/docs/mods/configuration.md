@@ -1,7 +1,7 @@
 +++
-title = "Configuration file"
+title = "Configuration File"
 description = "Example values for the configuration file"
-weight = 99
+weight = 6
 draft = false
 toc = false
 bref = "Directories can be confusing"
