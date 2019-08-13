@@ -43,6 +43,11 @@ Selectively importing mods from a simple modpack
 
 <h4>Wizard Modpack import</h4>
 
+Start the import. Wizard will be automatically used as long as the modpack is of type Wizard:
+
+```
+> ./FFMT-LINUX mpi -t /path/to/modpack.ttmp2
+```
 Follow the on-screen prompts. Example:
 ```
 Choices:
