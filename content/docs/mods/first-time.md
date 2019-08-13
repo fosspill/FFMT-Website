@@ -13,8 +13,7 @@ You are not required to make use of the config file created by this application,
 
 Note: Common directories will be displayed in the config file
 
-{{ partial "configuration.md" . }}
-
+[Important Directories - Examples!]({{< ref "configuration.md" >}})
 ## First-time setup
 
 1. The first run will create the application's config file
