@@ -21,7 +21,7 @@ Note: Common directories will be displayed in the config file
 Wherever you want to save your index backups.
 
 #### ConfigDirectory examples:
-- Mac OS: `/Users/<USER_NAME>/Documents/My Games/FINAL FANTASY XIV - A Realm Reborn`
+- MacOS: `/Users/<USER_NAME>/Documents/My Games/FINAL FANTASY XIV - A Realm Reborn`
 - Linux: `/path/to/WINEBOTTLE/drive_c/users/<USER_NAME>/My Documents/My Games/FINAL FANTASY XIV - A Realm Reborn`
 - Windows: `C:\users\<USER_NAME>\My Documents\My Games\FINAL FANTASY XIV - A Realm Reborn`
 
