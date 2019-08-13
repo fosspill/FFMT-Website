@@ -6,7 +6,7 @@ draft = false
 toc = false
 bref = "A short guide to downloading and installing on Windows, Mac and Linux"
 +++
-## Mac / Linux Bundled release
+## Linux Bundled release
 
 1. Download the most recent release from the appropriate link above. 
 
@@ -24,16 +24,20 @@ Available actions:
 
 
 
-## Universal release (Including Windows)
+## Universal release (Mac / Windows / Linux)
 
-1. Download and extract the universal release archive
+1. [Download and install Mono](https://www.mono-project.com/docs/getting-started/install/mac/)
 
-2. Confirm that the executable runs through commandline: 
+2. Download and extract the universal release archive
+
+3. Open your commandline console and browse to the extracted folder (eg: `cd Release`)
+
+4. Confirm that the executable runs through commandline: 
 
 #### Mac/Linux:
 
-Run `mono FFMT.exe` through commandline.
+Run `mono FFXIV_Modding_Tool.exe` through commandline.
 
 #### Windows:
 
-Run `FFMT.exe` through commandline.
+Run `FFXIV_Modding_Tool.exe` through commandline.
