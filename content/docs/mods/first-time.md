@@ -20,6 +20,10 @@ You are not required to make use of the config file created by this application,
 2. Edit the config file with your editor of choice
 
 	```
+       # For MacOS GameDirectory needs to be set within the .app:
+       # Example: /Applications/FINAL FANTASY XIV ONLINE.app/Contents/SharedSupport/finalfantasyxiv/support/published_Final_Fantasy/drive_c/Program Files (x86)/SquareEnix/FINAL FANTASY XIV - A Realm Reborn
+
+
 	> nano ~/.config/FFMT/config.cfg
 	```
 
