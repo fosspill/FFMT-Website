@@ -30,15 +30,29 @@ Number of mods: 9001
 
 Importing a full modpack
 ```
-> ./FFMT-LINUX mpi -t /path/to/modpack.ttmp2
+> ./FFMT-LINUX mpi -t /path/to/modpack.ttmp2 --all
 ```
 <h4>Simple Modpack Custom Import</h4>
 
 Selectively importing mods from a simple modpack
 ```
-> ./FFMT-LINUX mpi -t /path/to/modpack.ttmp2 --custom
-> nano ~/.config/FFMT/ModPacks/modpack.cfg
-> ./FFMT-LINUX mpi -t /path/to/modpack.ttmp2 --custom
+> ./FFMT-LINUX mpi -t /path/to/modpack.ttmp2
+Starting import...
+Extracting data from modpack.ttmp2...
+Would you like to use the Wizard for importing?
+(Y)es, let me select the mods
+(N)o, import everything
+
+> y
+Choices:
+    1 - Star Trek
+         Description
+    2 - Star Wars
+         Description         
+
+  Choose one or multiple (eg: 1 2 3, 0-3, *)
+
+ > 1 2
 ```
 
 <h4>Wizard Modpack import</h4>
