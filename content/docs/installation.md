@@ -6,11 +6,15 @@ draft = false
 toc = false
 bref = "A short guide to downloading and installing on Windows, Mac and Linux"
 +++
-## Linux Bundled release
+## Linux And MacOS Bundled release
 
-1. Download the most recent release from the appropriate link [here](https://github.com/fosspill/FFXIV_Modding_Tool/releases). 
+1. If Mac: [Download and install Mono](https://www.mono-project.com/docs/getting-started/install/)
 
-2. Make the file executable and run it through commandline to confirm that it works
+2. Download the most recent release from the appropriate link [here](https://github.com/fosspill/FFXIV_Modding_Tool/releases). 
+
+3. Extract the archive.
+
+4. Make the file executable and run it through commandline to confirm that it works.
 
 ```
 > chmod +x FFMT-LINUX
