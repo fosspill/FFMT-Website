@@ -6,25 +6,6 @@ draft = false
 toc = false
 bref = "A short guide to downloading and installing on Windows, Mac and Linux"
 +++
-## Linux And MacOS Bundled release
-
-1. If Mac: [Download and install Mono](https://www.mono-project.com/docs/getting-started/install/)
-
-2. Download the most recent release from the appropriate link [here](https://github.com/fosspill/FFXIV_Modding_Tool/releases). 
-
-3. Extract the archive.
-
-4. Make the file executable and run it through commandline to confirm that it works.
-
-```
-> chmod +x FFMT-LINUX
-> ./FFMT-LINUX
-Usage: FFMT.exe [action] {arguments}
-
-Available actions:
-  modpack import, mpi      Import a modpack, requires a .ttmp(2) to be specified
-  ...
-```
 
 
 
@@ -40,8 +21,30 @@ Available actions:
 
 #### Mac/Linux:
 
-Run `mono FFXIV_Modding_Tool.exe` through commandline.
+Run `mono ffmt.exe` through commandline.
+There is also a bundled script: `ffmt.sh`
 
 #### Windows:
 
-Run `FFXIV_Modding_Tool.exe` through commandline.
+Run `ffmt.exe` through commandline.
+
+```
+
+> chmod +x ffmt.sh
+
+> ./ffmt.sh
+
+Usage: FFMT.exe [action] {arguments}
+
+
+
+Available actions:
+
+  modpack import, mpi      Import a modpack, requires a .ttmp(2) to be specified
+
+  ...
+
+```
+
+
+
