@@ -7,13 +7,12 @@ toc = false
 bref = "A short guide to downloading and installing on Windows, Mac and Linux"
 +++
 
+You may need to [Download and install Dotnet Core](https://dotnet.microsoft.com/download/dotnet-core)
 
 
 ## Universal release (Mac / Windows / Linux)
 
-1. If Mac/Linux: [Download and install Mono](https://www.mono-project.com/docs/getting-started/install/)
-
-2. Download and extract the universal release archive from [here](https://github.com/fosspill/FFXIV_Modding_Tool/releases).
+1. Download and extract the universal release archive from [here](https://github.com/fosspill/FFXIV_Modding_Tool/releases).
 
 3. Open your commandline console and browse to the extracted folder (eg: `cd Release`)
 
@@ -21,7 +20,7 @@ bref = "A short guide to downloading and installing on Windows, Mac and Linux"
 
 #### Mac/Linux:
 
-Run `mono ffmt.exe` through commandline.
+Run `./ffmt` through commandline.
 There is also a bundled script: `ffmt.sh`
 
 #### Windows:
@@ -32,9 +31,9 @@ Run `ffmt.exe` through commandline.
 
 > chmod +x ffmt.sh
 
-> ./ffmt.sh
+> ./ffmt
 
-Usage: FFMT.exe [action] {arguments}
+Usage: ffmt [action] {arguments}
 
 
 
