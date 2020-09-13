@@ -27,12 +27,28 @@ Wherever you want to save your index backups. Keep these safe!
 - Windows: `C:\users\<USER_NAME>\My Documents\My Games\FINAL FANTASY XIV - A Realm Reborn`
 
 
-## First-time setup
+## Wizard First-time setup
+
+1. Run:
+
+	```
+	> ffmt setup
+	```
+
+2. Follow the instructions on the screen. The wizard will try to suggest common folders!
+
+3. Create a backup of your clean index files
+
+	```
+	> ffmt backup
+	```
+
+## Manual First-time setup
 
 1. The first run will create the application's config file
 
 	```
-	> ./FFMT-LINUX
+	> ffmt
 	```
 
 2. Edit the config file with your editor of choice
@@ -44,7 +60,7 @@ Wherever you want to save your index backups. Keep these safe!
 3. Create a backup of your clean index files
 
 	```
-	> ./FFMT-LINUX backup
+	> ffmt backup
 	```
 
 You are now ready to start modding the game.
