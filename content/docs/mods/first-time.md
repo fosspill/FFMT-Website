@@ -27,7 +27,7 @@ Wherever you want to save your index backups. Keep these safe!
 - Windows: `C:\users\<USER_NAME>\My Documents\My Games\FINAL FANTASY XIV - A Realm Reborn`
 
 
-## Wizard First-time setup
+## Option 1: Wizard First-time setup
 
 1. Run:
 
@@ -42,8 +42,10 @@ Wherever you want to save your index backups. Keep these safe!
 	```
 	> ffmt backup
 	```
+	
 
-## Manual First-time setup
+
+## Option 2: Manual First-time setup
 
 1. The first run will create the application's config file
 
