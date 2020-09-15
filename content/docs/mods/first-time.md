@@ -31,7 +31,7 @@ Wherever you want to save your index backups. Keep these safe!
 
 1. Run:
 
-	```
+	```shell
 	> ffmt setup
 	```
 
@@ -39,7 +39,7 @@ Wherever you want to save your index backups. Keep these safe!
 
 3. Create a backup of your clean index files
 
-	```
+	```shell
 	> ffmt backup
 	```
 	
@@ -49,19 +49,19 @@ Wherever you want to save your index backups. Keep these safe!
 
 1. The first run will create the application's config file
 
-	```
+	```shell
 	> ffmt
 	```
 
 2. Edit the config file with your editor of choice
 
-	```
+	```shell
 	> nano ~/.config/FFMT/config.cfg
 	```
 
 3. Create a backup of your clean index files
 
-	```
+	```shell
 	> ffmt backup
 	```
 
