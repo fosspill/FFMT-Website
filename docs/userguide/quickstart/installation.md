@@ -5,7 +5,7 @@ You may need to [Download and install Dotnet Core](https://dotnet.microsoft.com/
 Note: We officially support the `ffmt-bin` aur package for arch-based linux distributions.
 
 
-## Universal release (Mac / Windows / Linux)
+## Universal release
 
 1. Download and extract the universal release archive from [here](https://github.com/fosspill/FFXIV_Modding_Tool/releases).
 
@@ -13,12 +13,12 @@ Note: We officially support the `ffmt-bin` aur package for arch-based linux dist
 
 4. Confirm that the executable runs through commandline: 
 
-#### Mac/Linux:
+#### Mac/Linux
 
 Run `./ffmt` through commandline.
 There is also a bundled script: `ffmt.sh`
 
-#### Windows:
+#### Windows
 
 Run `ffmt.exe` through commandline.
 

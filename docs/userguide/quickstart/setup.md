@@ -6,7 +6,7 @@ You are not required to make use of the config file created by this application,
 
 Note: Common directories will be displayed in the config file
 
-#### GameDirectory examples:
+#### GameDirectory examples
 - MacOS: `/Users/<USER_NAME>/Library/Application Support/FINAL FANTASY XIV ONLINE/Bottles/published_Final_Fantasy/drive_c/Program Files (x86)/SquareEnix/FINAL FANTASY XIV - A Realm Reborn`
 - Linux: `/path/to/WINEBOTTLE/drive_c/Program Files (x86)/SquareEnix/FINAL FANTASY XIV - A Realm Reborn`
 - Windows: `C:\Program Files (x86)\SquareEnix\FINAL FANTASY XIV - A Realm Reborn`
@@ -14,7 +14,7 @@ Note: Common directories will be displayed in the config file
 #### BackupDirectory
 Wherever you want to save your index backups. Keep these safe!
 
-#### ConfigDirectory examples:
+#### ConfigDirectory examples
 - MacOS: `/Users/<USER_NAME>/Documents/My Games/FINAL FANTASY XIV - A Realm Reborn`
 - Linux: `/path/to/WINEBOTTLE/drive_c/users/<USER_NAME>/My Documents/My Games/FINAL FANTASY XIV - A Realm Reborn`
 - Windows: `C:\users\<USER_NAME>\My Documents\My Games\FINAL FANTASY XIV - A Realm Reborn`
