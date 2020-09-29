@@ -2,7 +2,6 @@
 
 You may need to [Download and install Dotnet Core](https://dotnet.microsoft.com/download/dotnet-core)
 
-Note: We officially support the `ffmt-bin` aur package for arch-based linux distributions.
 
 ## Option 1: Package managers (macOS and Linux)
 ### macOS
