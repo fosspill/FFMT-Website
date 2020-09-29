@@ -12,6 +12,10 @@ You may need to [Download and install Dotnet Core](https://dotnet.microsoft.com/
 ### Linux
 Arch based: Install the `ffmt-bin` package from the aur. (Ex: `yay -S ffmt-bin`)
 
+
+Your next step should be [First-time setup](userguide/quickstart/setup)
+
+
 ## Option 2: Manual
 
 1. [Download and install Dotnet Core](https://dotnet.microsoft.com/download/dotnet-core)
