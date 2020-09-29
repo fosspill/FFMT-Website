@@ -4,8 +4,16 @@ You may need to [Download and install Dotnet Core](https://dotnet.microsoft.com/
 
 Note: We officially support the `ffmt-bin` aur package for arch-based linux distributions.
 
+## Option 1: Package managers (macOS and Linux)
+### macOS
+1.  [Install Homebrew](https://brew.sh).
+2.  Run `brew cask install dotnet-sdk` or [Follow Microsoft's dotnet install guide](https://dotnet.microsoft.com/download/dotnet-core)
+3.  Run `brew install fosspill/ffmt/ffmt`.
 
-## Mac, Windows and Linux
+### Linux
+Arch based: Install the `ffmt-bin` package from the aur. (Ex: `yay -S ffmt-bin`)
+
+## Option 2: Manual
 
 1. [Download and install Dotnet Core](https://dotnet.microsoft.com/download/dotnet-core)
 2. Download the relevant release [here](https://github.com/fosspill/FFXIV_Modding_Tool/releases).
@@ -28,9 +36,6 @@ There is also a bundled script: `ffmt.sh`
 Run `ffmt.exe` through commandline.
 
 ```
-
-> chmod +x ffmt.sh
-
 > ./ffmt
 
 Usage: ffmt [action] {arguments}
