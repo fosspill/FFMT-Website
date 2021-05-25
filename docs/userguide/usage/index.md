@@ -10,6 +10,7 @@ Usage: ffmt [action] {arguments}
 Available actions:
   modpack import, mpi      Import a modpack, requires a .ttmp(2) to be specified
   modpack info, mpinfo     Show info about a modpack, requires a .ttmp(2) to be specified
+  modpack create, mpc      Create a modpack out of your currently active mods
   mods enable, me          Enable all installed mods
   mods disable, md         Disable all installed mods
   mods refresh, mr         Enable/disable mods as specified in modlist.cfg
@@ -28,8 +29,8 @@ Available arguments:
   -w, --wizard             Use the modpack wizard to select what mods to import (modpack import only)
   -a, --all                Import all mods in a modpack immediately (modpack import only)
   -npc, --noproblemcheck   Skip the problem check after importing a modpack
+  -o, --output             Path and filename to save .ttmp2 during Modpack Creation
   -v, --version            Display current application and game version
   -h, --help               Display this text
   path/to/modpack.ttmp     Full path to modpack(s). Imports in the order given.
-
 ```
