@@ -19,13 +19,13 @@ Your game should **never be modded when applying a new patch**. We recommend res
 	```
 
 ##### After game patch
-Backup the new index files first
-```
-> ffmt backup {-g /path/to/FINAL\ FANTASY\ XIV\ - A\ Realm\ Reborn -b /path/to/index/backups}
-```
+1. Backup the new index files first
+	```
+	> ffmt backup {-g /path/to/FINAL\ FANTASY\ XIV\ - A\ Realm\ Reborn -b /path/to/index/backups}
+	```
 
 
-1. Import your backup modpack
+2. Import your backup modpack
 	
 	```
 	> ffmt modpack import ~/mymodpack.ttmp2 {-g /path/to/FINAL\ FANTASY\ XIV\ - A\ Realm\ Reborn}
