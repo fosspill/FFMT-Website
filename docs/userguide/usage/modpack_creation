@@ -1,0 +1,12 @@
+# Creating Modpacks with FFMT
+
+### Importing
+First you'll have to have some mods enabled and applied to your game as these will be used to create the modpack.
+
+### Creation
+```
+> ffmt mpc -o ~/mymodpack.ttmp2
+Follow the creation wizard
+```
+
+Your modpack will now be saved to the location you specified.
