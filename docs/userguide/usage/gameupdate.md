@@ -6,12 +6,10 @@ Your game should **never be modded when applying a new patch**. We recommend res
 
 
 ##### Before game patch
-You can either:
 
-1. Disable all mods
-
+1. Backup all mods 
 	```
-	> ffmt mods disable {-g /path/to/FINAL\ FANTASY\ XIV\ - A\ Realm\ Reborn}
+	> ffmt modpack create --output ~/mymodpack.ttmp2  {-g /path/to/FINAL\ FANTASY\ XIV\ - A\ Realm\ Reborn -b /path/to/index/backups}
 	```
 
 2. Reset the game's files entirely 
@@ -25,15 +23,10 @@ Backup the new index files first
 ```
 > ffmt backup {-g /path/to/FINAL\ FANTASY\ XIV\ - A\ Realm\ Reborn -b /path/to/index/backups}
 ```
-Depending on the chosen step before patching, you now either:
 
-1. Re-enable all mods
+
+1. Import your backup modpack
 	
 	```
-	> ffmt mods enable {-g /path/to/FINAL\ FANTASY\ XIV\ - A\ Realm\ Reborn}
-	```
-2. Import your modpacks from scratch
-	
-	```
-	> ffmt modpack import {-g /path/to/FINAL\ FANTASY\ XIV\ - A\ Realm\ Reborn /path/to/modpack.ttmp2}
+	> ffmt modpack import ~/mymodpack.ttmp2 {-g /path/to/FINAL\ FANTASY\ XIV\ - A\ Realm\ Reborn}
 	```
