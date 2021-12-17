@@ -5,7 +5,7 @@ This guide is based on our `./build.sh` script, available in the repository.
 
 ## xivModdingFramework
 
-Building the [xivModdingFramework](https://github.com/liinko/xivModdingFramework) with dotnet is usually not problematic
+Building the [xivModdingFramework](https://github.com/TexTools/xivModdingFramework/) with dotnet is usually not problematic
 
 ```dotnet build --no-incremental -c Release xivModdingFramework/xivModdingFramework/xivModdingFramework.csproj -o FFXIV_Modding_Tool/references/```
 
